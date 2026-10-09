@@ -1,0 +1,20 @@
+# Local environments and generated files stay on each developer's machine.
+.venv/
+.pixi/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+**/diagnostics/
+**/runs/
+**/evaluation/**/*.png
+**/evaluation/**/*.jpg
+**/evaluation/**/*.jpeg
+**/evaluation/**/*.json
+**/evaluation/**/*.csv
+**/calibration/*.json

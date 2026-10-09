@@ -1,0 +1,11 @@
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+data/*
+!data/v2_EGH455-3/
+data/v2_EGH455-3/*
+!data/v2_EGH455-3/data.yaml
+.pytest_cache/*
+
+*/__pycache__/*

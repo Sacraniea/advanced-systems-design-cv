@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+evaluation/crops/
+evaluation/overlays/
+evaluation/results/
+
+# Share experiment scripts; keep their generated evidence local.
+!evaluation/
+evaluation/**
+!evaluation/**/
+!evaluation/**/*.py
